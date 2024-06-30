@@ -1,0 +1,102 @@
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+.chat-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #00FF00;
+    padding: 10px;
+    background-color: #000000;
+}
+.message {
+    margin: 5px 0;
+}
+.username {
+    color: #FFFF00;
+}
+.input-container {
+    margin-top: 10px;
+}
+.input-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #00FF00;
+    background-color: #000000;
+    color: #00FF00;
+}
+.input-container input[type="submit"] {
+    padding: 10px 20px;
+    border: 1px solid #00FF00;
+    background-color: #000000;
+    color: #00FF00;
+    cursor: pointer;
+}
+
+
+.input-containerU input {
+    margin: 1vh;
+    padding: 10px 20px;
+    border: 1px solid #00FF00;
+    background-color: #000000;
+    color: #00FF00;
+}
+.input-containerU {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-box::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #00FF00;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.chat-box {
+    width: 100%;
+    height: 30vh;
+    border: 1px solid #00FF00;
+    background-color: #000000;
+    overflow-y: scroll;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Scrollbar styles */
+.chat-box::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #00FF00;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/* For Firefox */
+.chat-box {
+    scrollbar-width: thin;
+    scrollbar-color: #00FF00 #000000;
+}
+
